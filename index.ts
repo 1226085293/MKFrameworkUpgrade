@@ -142,7 +142,7 @@ import { argv } from "process";
 							`${global[k2Str]}\.`
 						)
 						.replace(
-							new RegExp(`(?<=(\\(|\\s))${k2Str}(?=\\W)`, "g"),
+							new RegExp(`(?<=(\\(|\\s|"|'))${k2Str}(?=\\W)`, "g"),
 							`${global[k2Str]}`
 						);
 				}
