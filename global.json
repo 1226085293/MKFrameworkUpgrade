@@ -116,5 +116,6 @@
 	"edit_box": "editBox",
 	"rich_text": "richText",
 	"progress_bar": "progressBar",
-	"order_n": "orderNum"
+	"order_n": "orderNum",
+	"layer_type_n": "layerTypeNum"
 }
