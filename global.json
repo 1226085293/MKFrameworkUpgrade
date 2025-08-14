@@ -117,5 +117,6 @@
 	"rich_text": "richText",
 	"progress_bar": "progressBar",
 	"order_n": "orderNum",
-	"layer_type_n": "layerTypeNum"
+	"layer_type_n": "layerTypeNum",
+	"_use_layer_b": "_use_layer_b"
 }
