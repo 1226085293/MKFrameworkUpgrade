@@ -97,7 +97,7 @@
 	"progress_f": "progressFunc",
 	"remote_option": "remoteOption",
 	"retry_n": "retryNum",
-	"group_ns": "groupNumList",
+	"group_ns": "groupIdNumList",
 	"dir_b": "isDir",
 	"before_switch": "beforeSwitch",
 	"loading_step": "loadingStep",
