@@ -96,7 +96,20 @@ import { argv } from "process";
 	} catch (error) {
 		console.error("处理VSCode配置 Error:", error);
 	}
-	// ...package.json
+
+	// package.json
+	try {
+		(() => {
+			let settings = fs.readFileSync(`${rootDir}/package.json`, "utf-8");
+
+			settings = settings.replace("version_s", "versionStr");
+
+			fs.writeFileSync(`${rootDir}/package.json`, settings, "utf-8");
+			console.log("处理VSCode配置 Success");
+		})();
+	} catch (error) {
+		console.error("处理VSCode配置 Error:", error);
+	}
 
 	// assets替换
 	try {
